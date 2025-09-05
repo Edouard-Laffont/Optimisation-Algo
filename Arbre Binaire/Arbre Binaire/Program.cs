@@ -2,6 +2,10 @@
 
 Node monNode = new Node("salut");
 
-Vehicule voitureDeEdouard = new Vehicule("Renaud", 2020);
-
 BinaryTree myTree = new BinaryTree("bonjour");
+/*Vehicule voitureDeEdouard = new Vehicule("Renaud", 2020);*/
+
+internal partial class Program
+{
+    public static BinaryTree wordTree;
+}

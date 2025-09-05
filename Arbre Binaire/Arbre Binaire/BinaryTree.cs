@@ -11,6 +11,17 @@ public class BinaryTree
 
     public void Add(string mot)
     {
-        
+        if (root == null)
+        {
+            root = new Node(mot);
+        }
+    }
+    
+    private void Display(){}
+
+    public bool Search(string value)
+    {
+        Node current = root;
+        while (current != null){}
     }
 }

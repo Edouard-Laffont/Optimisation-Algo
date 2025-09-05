@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Motus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3489d5d49caaee0e865f038090f8ef00fe03af53")]
 [assembly: System.Reflection.AssemblyProductAttribute("Motus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Motus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

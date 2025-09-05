@@ -4,13 +4,15 @@ public class Node
     private Node left;
     private Node right;
     
-    public Node(string w, Node n1=null, Node n2=null)
+    public Node(string value)
     {
-        word=w;
-        left=n1;
-        right=n2;
+        word=value;
+        left=null;
+        right=null;
     }
 }
+
+
 
 
 

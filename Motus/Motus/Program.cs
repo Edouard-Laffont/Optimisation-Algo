@@ -21,10 +21,10 @@ void WordEncoder()
 void AnswerReader()
 {
     playerAnswer = Console.ReadLine();
-    foreach (char c in playerAnswer)
+    /*foreach (char c in playerAnswer)
     {
         answerCharacterList.Add(c);
-    }
+    }*/
     WordAnalizer(wordToFind);
     
 }

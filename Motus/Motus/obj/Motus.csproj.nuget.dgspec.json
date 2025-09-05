@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\e.laffont\\RiderProjects\\Motus\\Motus\\Motus.csproj": {}
+    "C:\\Users\\e.laffont\\GitProjects\\Optimisation-Algo\\Motus\\Motus\\Motus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\e.laffont\\RiderProjects\\Motus\\Motus\\Motus.csproj": {
+    "C:\\Users\\e.laffont\\GitProjects\\Optimisation-Algo\\Motus\\Motus\\Motus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\e.laffont\\RiderProjects\\Motus\\Motus\\Motus.csproj",
+        "projectUniqueName": "C:\\Users\\e.laffont\\GitProjects\\Optimisation-Algo\\Motus\\Motus\\Motus.csproj",
         "projectName": "Motus",
-        "projectPath": "C:\\Users\\e.laffont\\RiderProjects\\Motus\\Motus\\Motus.csproj",
+        "projectPath": "C:\\Users\\e.laffont\\GitProjects\\Optimisation-Algo\\Motus\\Motus\\Motus.csproj",
         "packagesPath": "C:\\Users\\e.laffont\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\e.laffont\\RiderProjects\\Motus\\Motus\\obj\\",
+        "outputPath": "C:\\Users\\e.laffont\\GitProjects\\Optimisation-Algo\\Motus\\Motus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\e.laffont\\AppData\\Roaming\\NuGet\\NuGet.Config"
