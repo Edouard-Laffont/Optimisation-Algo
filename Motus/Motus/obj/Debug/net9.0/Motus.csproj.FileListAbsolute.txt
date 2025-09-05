@@ -1,0 +1,14 @@
+C:\Users\e.laffont\RiderProjects\Motus\Motus\bin\Debug\net9.0\Motus.exe
+C:\Users\e.laffont\RiderProjects\Motus\Motus\bin\Debug\net9.0\Motus.deps.json
+C:\Users\e.laffont\RiderProjects\Motus\Motus\bin\Debug\net9.0\Motus.runtimeconfig.json
+C:\Users\e.laffont\RiderProjects\Motus\Motus\bin\Debug\net9.0\Motus.dll
+C:\Users\e.laffont\RiderProjects\Motus\Motus\bin\Debug\net9.0\Motus.pdb
+C:\Users\e.laffont\RiderProjects\Motus\Motus\obj\Debug\net9.0\Motus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e.laffont\RiderProjects\Motus\Motus\obj\Debug\net9.0\Motus.AssemblyInfoInputs.cache
+C:\Users\e.laffont\RiderProjects\Motus\Motus\obj\Debug\net9.0\Motus.AssemblyInfo.cs
+C:\Users\e.laffont\RiderProjects\Motus\Motus\obj\Debug\net9.0\Motus.csproj.CoreCompileInputs.cache
+C:\Users\e.laffont\RiderProjects\Motus\Motus\obj\Debug\net9.0\Motus.dll
+C:\Users\e.laffont\RiderProjects\Motus\Motus\obj\Debug\net9.0\refint\Motus.dll
+C:\Users\e.laffont\RiderProjects\Motus\Motus\obj\Debug\net9.0\Motus.pdb
+C:\Users\e.laffont\RiderProjects\Motus\Motus\obj\Debug\net9.0\Motus.genruntimeconfig.cache
+C:\Users\e.laffont\RiderProjects\Motus\Motus\obj\Debug\net9.0\ref\Motus.dll
