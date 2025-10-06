@@ -1,48 +1,57 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("TEST");
+using System;
+using System.Collections.Generic;
 
 string wordToFind = "APPLE";
+string encodedWordToFind = "";
 string playerAnswer;
-string encodedWordToFind;
-
 int lives = 10;
-int rightCharacters;
-
-List<char> answerCharacterList = new List<char>();
 
 void WordEncoder()
 {
-    for (int i = 0; i < encodedWordToFind.Length; i++)
+    encodedWordToFind = "";
+    for (int i = 0; i < wordToFind.Length; i++)
     {
-        encodedWordToFind.Replace(encodedWordToFind[i], '_');
+        encodedWordToFind += "_";
     }
 }
-void AnswerReader()
-{
-    playerAnswer = Console.ReadLine();
-    /*foreach (char c in playerAnswer)
-    {
-        answerCharacterList.Add(c);
-    }*/
-    WordAnalizer(wordToFind);
-    
-}
 
-void WordAnalizer(string _wordToAnalyze)
+void WordAnalizer(string answer)
 {
-    for (int i = 0; i < _wordToAnalyze.Length; i++)
+    char[] temp = encodedWordToFind.ToCharArray();
+
+    for (int i = 0; i < wordToFind.Length && i < answer.Length; i++)
     {
-        if (_wordToAnalyze[i] == answerCharacterList[i])
+        if (wordToFind[i] == answer[i])
         {
-            rightCharacters++;
-            encodedWordToFind.Replace(encodedWordToFind[i], _wordToAnalyze[i]);
+            temp[i] = wordToFind[i];
         }
     }
 
-    if (rightCharacters > wordToFind.Length)
-    {
-        Console.WriteLine($"{_wordToAnalyze} is right");
-    }
-    rightCharacters = 0;
+    encodedWordToFind = new string(temp);
 }
+
+WordEncoder();
+
+while (lives > 0 && encodedWordToFind.Contains("_"))
+{
+    Console.WriteLine($"Word: {encodedWordToFind}");
+    Console.Write("Answer: ");
+    playerAnswer = Console.ReadLine().ToUpper();
+
+    if (playerAnswer == wordToFind)
+    {
+        encodedWordToFind = wordToFind;
+        break;
+    }
+    else
+    {
+        WordAnalizer(playerAnswer);
+        lives--;
+        Console.WriteLine($"Lives: {lives}");
+    }
+}
+
+if (encodedWordToFind == wordToFind)
+    Console.WriteLine($"Victory! {wordToFind}");
+else
+    Console.WriteLine($"Defeat! {wordToFind}");
